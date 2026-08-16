@@ -13,6 +13,16 @@
 # testing
 /coverage
 
+# Claude Code — cấu hình cục bộ của máy (không commit)
+.claude/settings.local.json
+
+# UI screenshots (scripts/shot.mjs output)
+/.screenshots/
+
+# Ảnh render gốc (nặng ~578MB) — giữ local làm nguồn, không deploy/commit.
+# Chạy `node scripts/optimize-images.mjs` để sinh public/images/*.webp.
+/images-src/
+
 # next.js
 /.next/
 /out/

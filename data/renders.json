@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "total": 36,
+    "note": "Render là hình concept minh hoạ, không phải bản vẽ thi công."
+  },
+  "filters": {
+    "style": [
+      {
+        "slug": "indochine",
+        "label": "Indochine"
+      },
+      {
+        "slug": "modern",
+        "label": "Modern"
+      },
+      {
+        "slug": "neoclassical",
+        "label": "Tân cổ điển"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "vua",
+        "label": "Vừa"
+      },
+      {
+        "slug": "trung",
+        "label": "Trung"
+      },
+      {
+        "slug": "cao",
+        "label": "Cao"
+      }
+    ],
+    "room": [
+      {
+        "slug": "all",
+        "label": "Tất cả"
+      },
+      {
+        "slug": "phong-khach",
+        "label": "Phòng khách"
+      },
+      {
+        "slug": "bep",
+        "label": "Bếp"
+      },
+      {
+        "slug": "phong-ngu",
+        "label": "Phòng ngủ"
+      },
+      {
+        "slug": "phong-tam",
+        "label": "Phòng tắm"
+      }
+    ]
+  },
+  "defaults": {
+    "style": "indochine",
+    "tier": "trung",
+    "room": "all"
+  },
+  "renders": [
+    {
+      "id": "indochine-phong-khach-trung",
+      "style": "indochine",
+      "tier": "trung",
+      "room": "phong-khach",
+      "src": "/images/indochine/01_Phong-khach_Muc-trung.webp",
+      "alt": "Phòng khách phong cách Indochine — mức Trung"
+    },
+    {
+      "id": "indochine-bep-trung",
+      "style": "indochine",
+      "tier": "trung",
+      "room": "bep",
+      "src": "/images/indochine/02_Bep_Muc-trung.webp",
+      "alt": "Bếp phong cách Indochine — mức Trung"
+    },
+    {
+      "id": "indochine-phong-ngu-trung",
+      "style": "indochine",
+      "tier": "trung",
+      "room": "phong-ngu",
+      "src": "/images/indochine/03_Phong-ngu_Muc-trung.webp",
+      "alt": "Phòng ngủ phong cách Indochine — mức Trung"
+    },
+    {
+      "id": "indochine-phong-tam-trung",
+      "style": "indochine",
+      "tier": "trung",
+      "room": "phong-tam",
+      "src": "/images/indochine/04_Phong-tam_Muc-trung.webp",
+      "alt": "Phòng tắm phong cách Indochine — mức Trung"
+    },
+    {
+      "id": "indochine-phong-khach-vua",
+      "style": "indochine",
+      "tier": "vua",
+      "room": "phong-khach",
+      "src": "/images/indochine/05_Phong-khach_Muc-vua.webp",
+      "alt": "Phòng khách phong cách Indochine — mức Vừa"
+    },
+    {
+      "id": "indochine-bep-vua",
+      "style": "indochine",
+      "tier": "vua",
+      "room": "bep",
+      "src": "/images/indochine/06_Bep_Muc-vua.webp",
+      "alt": "Bếp phong cách Indochine — mức Vừa"
+    },
+    {
+      "id": "indochine-phong-ngu-vua",
+      "style": "indochine",
+      "tier": "vua",
+      "room": "phong-ngu",
+      "src": "/images/indochine/07_Phong-ngu_Muc-vua.webp",
+      "alt": "Phòng ngủ phong cách Indochine — mức Vừa"
+    },
+    {
+      "id": "indochine-phong-tam-vua",
+      "style": "indochine",
+      "tier": "vua",
+      "room": "phong-tam",
+      "src": "/images/indochine/08_Phong-tam_Muc-vua.webp",
+      "alt": "Phòng tắm phong cách Indochine — mức Vừa"
+    },
+    {
+      "id": "indochine-phong-khach-cao",
+      "style": "indochine",
+      "tier": "cao",
+      "room": "phong-khach",
+      "src": "/images/indochine/09_Phong-khach_Muc-cao.webp",
+      "alt": "Phòng khách phong cách Indochine — mức Cao"
+    },
+    {
+      "id": "indochine-bep-cao",
+      "style": "indochine",
+      "tier": "cao",
+      "room": "bep",
+      "src": "/images/indochine/10_Bep_Muc-cao.webp",
+      "alt": "Bếp phong cách Indochine — mức Cao"
+    },
+    {
+      "id": "indochine-phong-ngu-cao",
+      "style": "indochine",
+      "tier": "cao",
+      "room": "phong-ngu",
+      "src": "/images/indochine/11_Phong-ngu_Muc-cao.webp",
+      "alt": "Phòng ngủ phong cách Indochine — mức Cao"
+    },
+    {
+      "id": "indochine-phong-tam-cao",
+      "style": "indochine",
+      "tier": "cao",
+      "room": "phong-tam",
+      "src": "/images/indochine/12_Phong-tam_Muc-cao.webp",
+      "alt": "Phòng tắm phong cách Indochine — mức Cao"
+    },
+    {
+      "id": "modern-phong-khach-vua",
+      "style": "modern",
+      "tier": "vua",
+      "room": "phong-khach",
+      "src": "/images/modern/01_Phong-khach_Muc-vua.webp",
+      "alt": "Phòng khách phong cách Modern — mức Vừa"
+    },
+    {
+      "id": "modern-bep-vua",
+      "style": "modern",
+      "tier": "vua",
+      "room": "bep",
+      "src": "/images/modern/02_Bep_Muc-vua.webp",
+      "alt": "Bếp phong cách Modern — mức Vừa"
+    },
+    {
+      "id": "modern-phong-ngu-vua",
+      "style": "modern",
+      "tier": "vua",
+      "room": "phong-ngu",
+      "src": "/images/modern/03_Phong-ngu_Muc-vua.webp",
+      "alt": "Phòng ngủ phong cách Modern — mức Vừa"
+    },
+    {
+      "id": "modern-phong-tam-vua",
+      "style": "modern",
+      "tier": "vua",
+      "room": "phong-tam",
+      "src": "/images/modern/04_Phong-tam_Muc-vua.webp",
+      "alt": "Phòng tắm phong cách Modern — mức Vừa"
+    },
+    {
+      "id": "modern-phong-khach-trung",
+      "style": "modern",
+      "tier": "trung",
+      "room": "phong-khach",
+      "src": "/images/modern/05_Phong-khach_Muc-trung.webp",
+      "alt": "Phòng khách phong cách Modern — mức Trung"
+    },
+    {
+      "id": "modern-bep-trung",
+      "style": "modern",
+      "tier": "trung",
+      "room": "bep",
+      "src": "/images/modern/06_Bep_Muc-trung.webp",
+      "alt": "Bếp phong cách Modern — mức Trung"
+    },
+    {
+      "id": "modern-phong-ngu-trung",
+      "style": "modern",
+      "tier": "trung",
+      "room": "phong-ngu",
+      "src": "/images/modern/07_Phong-ngu_Muc-trung.webp",
+      "alt": "Phòng ngủ phong cách Modern — mức Trung"
+    },
+    {
+      "id": "modern-phong-tam-trung",
+      "style": "modern",
+      "tier": "trung",
+      "room": "phong-tam",
+      "src": "/images/modern/08_Phong-tam_Muc-trung.webp",
+      "alt": "Phòng tắm phong cách Modern — mức Trung"
+    },
+    {
+      "id": "modern-phong-khach-cao",
+      "style": "modern",
+      "tier": "cao",
+      "room": "phong-khach",
+      "src": "/images/modern/09_Phong-khach_Muc-cao.webp",
+      "alt": "Phòng khách phong cách Modern — mức Cao"
+    },
+    {
+      "id": "modern-bep-cao",
+      "style": "modern",
+      "tier": "cao",
+      "room": "bep",
+      "src": "/images/modern/10_Bep_Muc-cao.webp",
+      "alt": "Bếp phong cách Modern — mức Cao"
+    },
+    {
+      "id": "modern-phong-ngu-cao",
+      "style": "modern",
+      "tier": "cao",
+      "room": "phong-ngu",
+      "src": "/images/modern/11_Phong-ngu_Muc-cao.webp",
+      "alt": "Phòng ngủ phong cách Modern — mức Cao"
+    },
+    {
+      "id": "modern-phong-tam-cao",
+      "style": "modern",
+      "tier": "cao",
+      "room": "phong-tam",
+      "src": "/images/modern/12_Phong-tam_Muc-cao.webp",
+      "alt": "Phòng tắm phong cách Modern — mức Cao"
+    },
+    {
+      "id": "neoclassical-phong-khach-vua",
+      "style": "neoclassical",
+      "tier": "vua",
+      "room": "phong-khach",
+      "src": "/images/neoclassical/01_Phong-khach_Muc-vua.webp",
+      "alt": "Phòng khách phong cách Tân cổ điển — mức Vừa"
+    },
+    {
+      "id": "neoclassical-bep-vua",
+      "style": "neoclassical",
+      "tier": "vua",
+      "room": "bep",
+      "src": "/images/neoclassical/02_Bep_Muc-vua.webp",
+      "alt": "Bếp phong cách Tân cổ điển — mức Vừa"
+    },
+    {
+      "id": "neoclassical-phong-ngu-vua",
+      "style": "neoclassical",
+      "tier": "vua",
+      "room": "phong-ngu",
+      "src": "/images/neoclassical/03_Phong-ngu_Muc-vua.webp",
+      "alt": "Phòng ngủ phong cách Tân cổ điển — mức Vừa"
+    },
+    {
+      "id": "neoclassical-phong-tam-vua",
+      "style": "neoclassical",
+      "tier": "vua",
+      "room": "phong-tam",
+      "src": "/images/neoclassical/04_Phong-tam_Muc-vua.webp",
+      "alt": "Phòng tắm phong cách Tân cổ điển — mức Vừa"
+    },
+    {
+      "id": "neoclassical-phong-khach-trung",
+      "style": "neoclassical",
+      "tier": "trung",
+      "room": "phong-khach",
+      "src": "/images/neoclassical/05_Phong-khach_Muc-trung.webp",
+      "alt": "Phòng khách phong cách Tân cổ điển — mức Trung"
+    },
+    {
+      "id": "neoclassical-bep-trung",
+      "style": "neoclassical",
+      "tier": "trung",
+      "room": "bep",
+      "src": "/images/neoclassical/06_Bep_Muc-trung.webp",
+      "alt": "Bếp phong cách Tân cổ điển — mức Trung"
+    },
+    {
+      "id": "neoclassical-phong-ngu-trung",
+      "style": "neoclassical",
+      "tier": "trung",
+      "room": "phong-ngu",
+      "src": "/images/neoclassical/07_Phong-ngu_Muc-trung.webp",
+      "alt": "Phòng ngủ phong cách Tân cổ điển — mức Trung"
+    },
+    {
+      "id": "neoclassical-phong-tam-trung",
+      "style": "neoclassical",
+      "tier": "trung",
+      "room": "phong-tam",
+      "src": "/images/neoclassical/08_Phong-tam_Muc-trung.webp",
+      "alt": "Phòng tắm phong cách Tân cổ điển — mức Trung"
+    },
+    {
+      "id": "neoclassical-phong-khach-cao",
+      "style": "neoclassical",
+      "tier": "cao",
+      "room": "phong-khach",
+      "src": "/images/neoclassical/09_Phong-khach_Muc-cao.webp",
+      "alt": "Phòng khách phong cách Tân cổ điển — mức Cao"
+    },
+    {
+      "id": "neoclassical-bep-cao",
+      "style": "neoclassical",
+      "tier": "cao",
+      "room": "bep",
+      "src": "/images/neoclassical/10_Bep_Muc-cao.webp",
+      "alt": "Bếp phong cách Tân cổ điển — mức Cao"
+    },
+    {
+      "id": "neoclassical-phong-ngu-cao",
+      "style": "neoclassical",
+      "tier": "cao",
+      "room": "phong-ngu",
+      "src": "/images/neoclassical/11_Phong-ngu_Muc-cao.webp",
+      "alt": "Phòng ngủ phong cách Tân cổ điển — mức Cao"
+    },
+    {
+      "id": "neoclassical-phong-tam-cao",
+      "style": "neoclassical",
+      "tier": "cao",
+      "room": "phong-tam",
+      "src": "/images/neoclassical/12_Phong-tam_Muc-cao.webp",
+      "alt": "Phòng tắm phong cách Tân cổ điển — mức Cao"
+    }
+  ]
+}
