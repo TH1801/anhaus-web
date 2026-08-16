@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { MapPin, type LucideIcon } from "lucide-react";
 import { ContactForm } from "@/components/lien-he/ContactForm";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Liên hệ",
+export const metadata: Metadata = pageMetadata({
+  title: "Liên hệ & đặt lịch khảo sát miễn phí | Anhaus",
   description:
-    "Đặt lịch khảo sát miễn phí tại TP.HCM · Bình Dương · Vũng Tàu. Phản hồi trong 24h.",
-};
+    "Đặt lịch khảo sát miễn phí với Anhaus tại TP.HCM, Bình Dương, Vũng Tàu. Để lại thông tin, chúng tôi phản hồi và tư vấn phong cách, ngân sách trong 24h.",
+  path: "/lien-he/",
+});
 
 function BarDivider() {
   return (

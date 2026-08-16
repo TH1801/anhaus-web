@@ -6,12 +6,14 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { CtaBanner } from "@/components/home/CtaBanner";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Quy trình",
+export const metadata: Metadata = pageMetadata({
+  title: "Quy trình thiết kế & thi công — nhận render 3D trong 48h | Anhaus",
   description:
-    "Một đầu mối, quy trình minh bạch — bạn thấy không gian trước khi chi tiền.",
-};
+    "Quy trình minh bạch của Anhaus: khảo sát, chọn phong cách, nhận render 3D trong 48h, thi công và bàn giao. Bạn thấy không gian trước khi chi tiền.",
+  path: "/quy-trinh/",
+});
 
 type Step = { no: string; title: React.ReactNode };
 

@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import { RenderLibrary } from "@/components/phong-cach/RenderLibrary";
 import { RenderGallery } from "@/components/RenderGallery";
 import { findRender, TIER_OPTIONS } from "@/lib/renders";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Thư viện phong cách",
+export const metadata: Metadata = pageMetadata({
+  title:
+    "Thư viện phong cách nội thất — Indochine, Modern, Tân cổ điển | Anhaus",
   description:
-    "Lọc render theo phong cách, mức đầu tư và loại phòng để chọn concept phù hợp với bạn.",
-};
+    "Xem thư viện render nội thất Anhaus theo phong cách Indochine, Modern, Tân cổ điển và ba mức ngân sách. Lọc nhanh theo phòng để chọn concept phù hợp.",
+  path: "/phong-cach/",
+});
 
 // Dải so sánh: cùng Indochine · Phòng khách, 3 mức Vừa/Trung/Cao (đọc từ catalog)
 const COMPARISON = TIER_OPTIONS.map((t) =>

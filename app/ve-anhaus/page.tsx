@@ -4,12 +4,14 @@ import { Logo } from "@/components/Logo";
 import { SkeletonImage } from "@/components/SkeletonImage";
 import { CtaBanner } from "@/components/home/CtaBanner";
 import { findRender } from "@/lib/renders";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Về Anhaus",
+export const metadata: Metadata = pageMetadata({
+  title: "Về Anhaus — nội thất tinh thần Bauhaus",
   description:
-    "Anhaus là 'An' (bình an) gặp 'Haus' (ngôi nhà, tinh thần Bauhaus).",
-};
+    "Anhaus là 'An' (bình an) gặp 'Haus' (Bauhaus): tỉ lệ đúng, vật liệu thật và tối giản có chủ đích. Câu chuyện và nguyên tắc thiết kế của chúng tôi.",
+  path: "/ve-anhaus/",
+});
 
 const showcase = findRender({
   style: "indochine",

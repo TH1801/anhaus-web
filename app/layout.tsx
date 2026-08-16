@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Archivo, Be_Vietnam_Pro, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SITE, localBusinessJsonLd } from "@/lib/seo";
 
 // Headings / wordmark
 const archivo = Archivo({
@@ -28,13 +29,38 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE.url),
   title: {
     default: "Anhaus — Thiết kế & thi công nội thất",
     template: "%s · Anhaus",
   },
-  description:
-    "Anhaus — studio thiết kế và thi công nội thất tại TP.HCM.",
-  metadataBase: new URL("https://anhaus.vn"),
+  description: "Anhaus — studio thiết kế và thi công nội thất tại TP.HCM.",
+  openGraph: {
+    type: "website",
+    siteName: SITE.name,
+    locale: SITE.locale,
+    url: SITE.url,
+    title: "Anhaus — Thiết kế & thi công nội thất",
+    description: "Anhaus — studio thiết kế và thi công nội thất tại TP.HCM.",
+    images: [
+      {
+        url: SITE.ogImage,
+        width: SITE.ogImageWidth,
+        height: SITE.ogImageHeight,
+        alt: SITE.ogImageAlt,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Anhaus — Thiết kế & thi công nội thất",
+    description: "Anhaus — studio thiết kế và thi công nội thất tại TP.HCM.",
+    images: [SITE.ogImage],
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#232B33",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -44,6 +70,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${archivo.variable} ${beVietnamPro.variable} ${ibmPlexMono.variable}`}
     >
       <body className="min-h-dvh flex flex-col">
+        {/* JSON-LD LocalBusiness — toàn site */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessJsonLd()),
+          }}
+        />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
