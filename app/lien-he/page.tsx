@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { MapPin, type LucideIcon } from "lucide-react";
 import { ContactForm } from "@/components/lien-he/ContactForm";
 import { pageMetadata } from "@/lib/seo";
+import { CONTACT } from "@/lib/contact";
 
 export const metadata: Metadata = pageMetadata({
   title: "Liên hệ & đặt lịch khảo sát miễn phí | Anhaus",
@@ -75,20 +76,36 @@ export default function LienHePage() {
               <dl className="mt-4 space-y-3 text-graphite">
                 <div className="flex justify-between gap-4">
                   <dt className="text-charcoal">Điện thoại</dt>
-                  <dd className="text-silver">cập nhật</dd>
+                  <dd>
+                    <a
+                      href={CONTACT.phoneTel}
+                      className="text-bronze transition-colors hover:text-bronze-hover"
+                    >
+                      {CONTACT.phoneDisplay}
+                    </a>
+                  </dd>
                 </div>
                 <div className="flex justify-between gap-4">
                   <dt className="text-charcoal">Zalo</dt>
-                  <dd className="text-silver">cập nhật</dd>
+                  <dd>
+                    <a
+                      href={CONTACT.zalo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-bronze transition-colors hover:text-bronze-hover"
+                    >
+                      {CONTACT.phoneDisplay}
+                    </a>
+                  </dd>
                 </div>
                 <div className="flex justify-between gap-4">
                   <dt className="text-charcoal">Email</dt>
                   <dd>
                     <a
-                      href="mailto:info@anhaus.vn"
+                      href={CONTACT.emailHref}
                       className="text-bronze transition-colors hover:text-bronze-hover"
                     >
-                      info@anhaus.vn
+                      {CONTACT.email}
                     </a>
                   </dd>
                 </div>
@@ -118,14 +135,34 @@ export default function LienHePage() {
                 Theo dõi
               </p>
               <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-graphite">
-                <li className="text-silver">Facebook (cập nhật)</li>
-                <li className="text-silver">Zalo (cập nhật)</li>
+                {/* Facebook — chưa có link, bật lại khi có:
                 <li>
                   <a
-                    href="https://anhaus.vn"
+                    href="https://facebook.com/anhaus"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-bronze transition-colors hover:text-bronze-hover"
                   >
-                    anhaus.vn
+                    Facebook
+                  </a>
+                </li>
+                */}
+                <li>
+                  <a
+                    href={CONTACT.zalo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-bronze transition-colors hover:text-bronze-hover"
+                  >
+                    Zalo
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={CONTACT.websiteUrl}
+                    className="text-bronze transition-colors hover:text-bronze-hover"
+                  >
+                    {CONTACT.website}
                   </a>
                 </li>
               </ul>
@@ -161,11 +198,19 @@ export default function LienHePage() {
             })}
           </div>
 
-          {/* Placeholder bản đồ */}
-          <div className="mt-10 flex aspect-[21/9] items-center justify-center rounded-[12px] bg-mist">
-            <span className="font-mono text-xs uppercase tracking-widest text-silver">
-              Bản đồ Google — nhúng sau
-            </span>
+          {/* Bản đồ Google (nhúng iframe, không cần API key) */}
+          <div className="mt-10 overflow-hidden rounded-[12px] ring-1 ring-mist">
+            <iframe
+              src="https://www.google.com/maps?q=280E4+L%C6%B0%C6%A1ng+%C4%90%E1%BB%8Bnh+C%E1%BB%A7a,+B%C3%ACnh+Tr%C6%B0ng,+TP.HCM&output=embed"
+              title="Bản đồ văn phòng Anhaus — 280E4 Lương Định Của, P. Bình Trưng, TP.HCM"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="block w-full"
+            />
           </div>
         </div>
       </section>

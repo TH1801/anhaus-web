@@ -118,7 +118,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "Chi phí render có mất phí không?",
-    a: <span className="italic text-silver">[ĐỂ TRỐNG — mình điền sau]</span>,
+    a: "Không. Với khách hàng thật sự quan tâm, Anhaus thực hiện render miễn phí sau khi khảo sát trực tiếp mặt bằng. Đây là lợi thế Anhaus mang lại để quý khách hình dung rõ không gian trước khi thi công. Anhaus không nhận làm render cho các yêu cầu online chưa qua khảo sát. Lưu ý: hình render là công cụ minh họa ý tưởng thiết kế, không phải bản vẽ thi công.",
   },
   {
     q: "Có làm ngoài TP.HCM không?",

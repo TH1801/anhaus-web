@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { NAV_ITEMS } from "@/lib/navigation";
 import { Logo } from "@/components/Logo";
+import { CONTACT } from "@/lib/contact";
 
 export function Footer() {
   return (
@@ -9,20 +10,36 @@ export function Footer() {
         <div className="space-y-3">
           <Logo inverted />
           <address className="not-italic text-sm leading-relaxed text-silver">
-            280E4 Lương Định Của, P. Bình Trưng, TP.HCM
+            {CONTACT.address}
             <br />
             <a
-              href="mailto:info@anhaus.vn"
+              href={CONTACT.phoneTel}
               className="transition-colors hover:text-paper"
             >
-              info@anhaus.vn
+              {CONTACT.phoneDisplay}
             </a>
             {" · "}
             <a
-              href="https://anhaus.vn"
+              href={CONTACT.zalo}
+              target="_blank"
+              rel="noopener noreferrer"
               className="transition-colors hover:text-paper"
             >
-              anhaus.vn
+              Zalo
+            </a>
+            <br />
+            <a
+              href={CONTACT.emailHref}
+              className="transition-colors hover:text-paper"
+            >
+              {CONTACT.email}
+            </a>
+            {" · "}
+            <a
+              href={CONTACT.websiteUrl}
+              className="transition-colors hover:text-paper"
+            >
+              {CONTACT.website}
             </a>
           </address>
         </div>

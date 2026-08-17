@@ -63,6 +63,7 @@ export function localBusinessJsonLd() {
     description: "Studio thiết kế và thi công nội thất trọn gói.",
     url: SITE.url,
     email: SITE.email,
+    telephone: "+84357576270",
     image: `${SITE.url}${SITE.ogImage}`,
     address: {
       "@type": "PostalAddress",

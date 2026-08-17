@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Hero } from "@/components/home/Hero";
 import { Services } from "@/components/home/Services";
 import { Gallery } from "@/components/home/Gallery";
-import { BeforeAfter } from "@/components/home/BeforeAfter";
+// Ẩn tạm đến khi có ảnh cải tạo thật:
+// import { BeforeAfter } from "@/components/home/BeforeAfter";
 import { Process } from "@/components/home/Process";
 import { CtaBanner } from "@/components/home/CtaBanner";
 import { pageMetadata, organizationJsonLd } from "@/lib/seo";
@@ -27,7 +28,8 @@ export default function HomePage() {
       <Hero />
       <Services />
       <Gallery />
-      <BeforeAfter />
+      {/* Ẩn tạm section Trước/Sau — bật lại khi có ảnh cải tạo thật:
+      <BeforeAfter /> */}
       <Process />
       <CtaBanner />
     </>
