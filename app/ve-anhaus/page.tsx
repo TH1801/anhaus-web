@@ -49,7 +49,7 @@ export default function VeAnhausPage() {
   return (
     <>
       {/* 1. Hero canh giữa hẹp */}
-      <section className="container py-20 text-center md:py-28">
+      <section className="container py-14 text-center md:py-20">
         <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
           VỀ ANHAUS
         </p>
@@ -65,7 +65,7 @@ export default function VeAnhausPage() {
 
       {/* 2. An + Haus */}
       <section className="bg-card">
-        <div className="container grid items-center gap-12 py-16 md:grid-cols-2 md:py-24">
+        <div className="container grid items-center gap-12 py-12 md:grid-cols-2 md:py-16">
           <div>
             <h2 className="text-3xl font-bold text-charcoal md:text-4xl">
               An + Haus
@@ -89,7 +89,7 @@ export default function VeAnhausPage() {
       </section>
 
       {/* 3. Ba nguyên tắc */}
-      <section className="container py-16 md:py-24">
+      <section className="container py-12 md:py-16">
         <h2 className="text-3xl font-bold text-charcoal md:text-4xl">
           Ba nguyên tắc thiết kế
         </h2>
@@ -116,7 +116,7 @@ export default function VeAnhausPage() {
 
       {/* 4. Ánh sáng & vật liệu */}
       <section className="bg-card">
-        <div className="container grid items-center gap-12 py-16 md:grid-cols-2 md:py-24">
+        <div className="container grid items-center gap-12 py-12 md:grid-cols-2 md:py-16">
           <div className="relative aspect-[16/10] overflow-hidden rounded-[12px] bg-mist">
             {showcase && (
               <SkeletonImage
@@ -146,7 +146,7 @@ export default function VeAnhausPage() {
       </section>
 
       {/* 5. Phục vụ ai */}
-      <section className="container py-16 md:py-24">
+      <section className="container py-12 md:py-16">
         <h2 className="max-w-3xl text-3xl font-bold text-charcoal md:text-4xl">
           Dành cho người muốn làm một lần cho tới
         </h2>

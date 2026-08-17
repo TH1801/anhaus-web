@@ -3,7 +3,7 @@ import Link from "next/link";
 export function BeforeAfter() {
   return (
     <section className="bg-card">
-      <div className="container py-16 md:py-24">
+      <div className="container py-12 md:py-16">
         <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
           CẢI TẠO
         </p>
@@ -35,7 +35,7 @@ export function BeforeAfter() {
           </div>
         </div>
 
-        <p className="mt-4 font-mono text-xs text-silver">
+        <p className="mt-4 font-mono text-sm text-silver">
           Ảnh dự án cải tạo — cập nhật sau.
         </p>
 

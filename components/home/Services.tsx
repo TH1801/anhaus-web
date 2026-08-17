@@ -34,7 +34,7 @@ const SERVICES: Service[] = [
 
 export function Services() {
   return (
-    <section className="container py-16 md:py-24">
+    <section className="container py-12 md:py-16">
       <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
         CHÚNG TÔI LÀM GÌ
       </p>

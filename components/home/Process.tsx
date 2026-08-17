@@ -19,7 +19,7 @@ const STEPS: Step[] = [
 
 export function Process() {
   return (
-    <section className="container py-16 md:py-24">
+    <section className="container py-12 md:py-16">
       <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
         QUY TRÌNH
       </p>
@@ -41,7 +41,7 @@ export function Process() {
         ))}
       </ol>
 
-      <p className="mt-10 font-mono text-xs text-silver">
+      <p className="mt-10 font-mono text-sm text-silver">
         Render là hình concept minh hoạ, không phải bản vẽ thi công.
       </p>
     </section>

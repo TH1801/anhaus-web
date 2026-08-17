@@ -130,7 +130,7 @@ export default function QuyTrinhPage() {
   return (
     <>
       {/* 1. Page header */}
-      <section className="container py-16 md:py-20">
+      <section className="container py-12 md:py-16">
         <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
           QUY TRÌNH
         </p>
@@ -144,7 +144,7 @@ export default function QuyTrinhPage() {
       </section>
 
       {/* 2. 48 giờ đầu tiên */}
-      <section className="container pb-16 md:pb-24">
+      <section className="container pb-12 md:pb-16">
         <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
           48 GIỜ ĐẦU TIÊN
         </p>
@@ -161,14 +161,14 @@ export default function QuyTrinhPage() {
             </li>
           ))}
         </ol>
-        <p className="mt-10 font-mono text-xs text-silver">
+        <p className="mt-10 font-mono text-sm text-silver">
           Render là hình concept minh hoạ, không phải bản vẽ thi công.
         </p>
       </section>
 
       {/* 3. Toàn bộ hành trình — timeline dọc */}
       <section className="bg-card">
-        <div className="container py-16 md:py-24">
+        <div className="container py-12 md:py-16">
           <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
             TOÀN BỘ HÀNH TRÌNH
           </p>
@@ -195,7 +195,7 @@ export default function QuyTrinhPage() {
 
       {/* 4. Concept ≠ thi công — dải than chì */}
       <section className="border-b border-graphite bg-charcoal">
-        <div className="container py-16 md:py-24">
+        <div className="container py-12 md:py-16">
           <h2 className="text-3xl font-bold text-paper md:text-4xl">
             Render concept khác bản vẽ thi công
           </h2>
@@ -225,7 +225,7 @@ export default function QuyTrinhPage() {
       </section>
 
       {/* 5. Cam kết */}
-      <section className="container py-16 md:py-24">
+      <section className="container py-12 md:py-16">
         <h2 className="text-3xl font-bold text-charcoal md:text-4xl">
           Ba điều chúng tôi giữ
         </h2>
@@ -251,7 +251,7 @@ export default function QuyTrinhPage() {
       </section>
 
       {/* 6. FAQ */}
-      <section className="container pb-16 md:pb-24">
+      <section className="container pb-12 md:pb-16">
         <h2 className="text-3xl font-bold text-charcoal md:text-4xl">
           Câu hỏi hay gặp
         </h2>

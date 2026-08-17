@@ -21,7 +21,7 @@ export default function PhongCachPage() {
   return (
     <>
       {/* Page header + bộ lọc + lưới */}
-      <section className="container py-16 md:py-20">
+      <section className="container py-12 md:py-16">
         <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
           THƯ VIỆN
         </p>
@@ -38,7 +38,7 @@ export default function PhongCachPage() {
 
       {/* Dải so sánh — nền trắng đổi nhịp */}
       <section className="bg-card">
-        <div className="container py-16 md:py-24">
+        <div className="container py-12 md:py-16">
           <h2 className="text-3xl font-bold text-charcoal md:text-4xl">
             Cùng một phòng, ba mức đầu tư
           </h2>
@@ -47,7 +47,7 @@ export default function PhongCachPage() {
             <RenderGallery renders={COMPARISON} priorityCount={0} />
           </div>
 
-          <p className="mt-6 font-mono text-xs text-silver">
+          <p className="mt-6 font-mono text-sm text-silver">
             Kết cấu phòng giữ nguyên — chỉ vật liệu, thiết bị, nội thất thay đổi.
           </p>
         </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 export function CtaBanner() {
   return (
     <section className="border-b border-graphite bg-charcoal">
-      <div className="container flex flex-col items-start gap-6 py-16 md:py-20">
+      <div className="container flex flex-col items-start gap-6 py-12 md:py-16">
         <h2 className="max-w-2xl text-3xl font-bold text-paper md:text-4xl">
           Sẵn sàng bắt đầu không gian của bạn?
         </h2>

@@ -10,7 +10,7 @@ const heroRender = findRender({
 
 export function Hero() {
   return (
-    <section className="container grid items-center gap-10 py-16 md:grid-cols-[55fr_45fr] md:py-24">
+    <section className="container grid items-center gap-10 py-12 md:grid-cols-[55fr_45fr] md:py-16">
       {/* Left column */}
       <div>
         <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
@@ -42,7 +42,7 @@ export function Hero() {
           </Link>
         </div>
 
-        <p className="mt-6 font-mono text-xs text-silver">
+        <p className="mt-6 font-mono text-sm text-silver">
           Phục vụ TP.HCM · Bình Dương · Vũng Tàu
         </p>
       </div>

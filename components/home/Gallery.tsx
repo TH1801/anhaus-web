@@ -24,7 +24,7 @@ const CARDS = TIER_OPTIONS.map((t) =>
 
 export function Gallery() {
   return (
-    <section className="container py-16 md:py-24">
+    <section className="container py-12 md:py-16">
       <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
         THƯ VIỆN
       </p>

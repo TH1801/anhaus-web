@@ -45,7 +45,7 @@ export default function LienHePage() {
   return (
     <>
       {/* 1. Page header */}
-      <section className="container py-16 md:py-20">
+      <section className="container py-12 md:py-16">
         <p className="font-mono text-xs uppercase tracking-widest text-bronze md:text-sm">
           LIÊN HỆ
         </p>
@@ -59,7 +59,7 @@ export default function LienHePage() {
       </section>
 
       {/* 2. Khối chính: form + thông tin */}
-      <section className="container pb-16 md:pb-24">
+      <section className="container pb-12 md:pb-16">
         <div className="grid gap-8 lg:grid-cols-[60fr_40fr]">
           {/* Cột trái: form (mobile xuống dưới) */}
           <div className="order-2 lg:order-1">
@@ -173,7 +173,7 @@ export default function LienHePage() {
 
       {/* 3. Dải khu vực */}
       <section className="bg-card">
-        <div className="container py-16 md:py-24">
+        <div className="container py-12 md:py-16">
           <h2 className="text-3xl font-bold text-charcoal md:text-4xl">
             Chúng tôi phục vụ
           </h2>

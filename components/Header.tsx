@@ -61,7 +61,7 @@ export function Header() {
                 href={item.href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "relative whitespace-nowrap text-sm font-medium transition-colors",
+                  "relative whitespace-nowrap text-[15px] font-medium transition-colors",
                   active ? "text-charcoal" : "text-graphite hover:text-bronze",
                 )}
               >

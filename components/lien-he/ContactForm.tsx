@@ -272,7 +272,7 @@ export function ContactForm() {
         {submitting ? "Đang gửi…" : "Đặt lịch khảo sát →"}
       </button>
 
-      <p className="mt-4 font-mono text-xs text-silver">
+      <p className="mt-4 font-mono text-sm text-silver">
         Chúng tôi phản hồi trong 24h · Thông tin của bạn được bảo mật.
       </p>
     </form>
