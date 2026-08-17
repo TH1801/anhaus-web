@@ -24,7 +24,7 @@ export function Logo({ inverted = false, size = "sm", className }: LogoProps) {
     <span className={cn("inline-flex items-center", s.wrap, className)}>
       <span
         className={cn(
-          "font-heading font-bold tracking-[0.2em]",
+          "font-heading font-black tracking-tight",
           s.text,
           inverted ? "text-paper" : "text-charcoal",
         )}
