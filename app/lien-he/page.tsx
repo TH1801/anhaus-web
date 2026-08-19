@@ -201,7 +201,7 @@ export default function LienHePage() {
           {/* Bản đồ Google (nhúng iframe, không cần API key) */}
           <div className="mt-10 overflow-hidden rounded-[12px] ring-1 ring-mist">
             <iframe
-              src="https://www.google.com/maps?q=280E4+L%C6%B0%C6%A1ng+%C4%90%E1%BB%8Bnh+C%E1%BB%A7a,+B%C3%ACnh+Tr%C6%B0ng,+TP.HCM&output=embed"
+              src="https://www.google.com/maps?q=10.7900788,106.7460293&z=17&output=embed"
               title="Bản đồ văn phòng Anhaus — 280E4 Lương Định Của, P. Bình Trưng, TP.HCM"
               width="100%"
               height="400"
