@@ -60,7 +60,8 @@ export function localBusinessJsonLd() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: SITE.name,
-    description: "Studio thiết kế và thi công nội thất trọn gói.",
+    description:
+      "Studio thiết kế và thi công nội thất trọn gói cho chung cư, căn hộ, nhà phố và văn phòng.",
     url: SITE.url,
     email: SITE.email,
     telephone: "+84357576270",
@@ -74,6 +75,12 @@ export function localBusinessJsonLd() {
     },
     areaServed: [
       { "@type": "City", name: "TP.HCM" },
+      { "@type": "Place", name: "Quận Bình Thạnh, TP.HCM" },
+      { "@type": "Place", name: "Quận 1, TP.HCM" },
+      { "@type": "Place", name: "Quận 3, TP.HCM" },
+      { "@type": "Place", name: "Quận 4, TP.HCM" },
+      { "@type": "Place", name: "Quận 7, TP.HCM" },
+      { "@type": "Place", name: "TP. Thủ Đức (Quận 2 cũ), TP.HCM" },
       { "@type": "City", name: "Bình Dương" },
       { "@type": "City", name: "Vũng Tàu" },
     ],

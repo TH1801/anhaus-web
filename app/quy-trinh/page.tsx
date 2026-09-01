@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "Quy trình thiết kế & thi công — nhận render 3D trong 48h | Anhaus",
   description:
-    "Quy trình minh bạch của Anhaus: khảo sát, chọn phong cách, nhận render 3D trong 48h, thi công và bàn giao. Bạn thấy không gian trước khi chi tiền.",
+    "Quy trình thi công nội thất chung cư, nhà phố, văn phòng: khảo sát, chọn phong cách, nhận render 3D trong 48h, thi công và bàn giao. Thấy không gian trước khi chi tiền.",
   path: "/quy-trinh/",
 });
 

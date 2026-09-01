@@ -11,7 +11,7 @@ import { pageMetadata, organizationJsonLd } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "Anhaus — Thiết kế & thi công nội thất trọn gói tại TP.HCM",
   description:
-    "Studio nội thất trọn gói: thiết kế, thi công, cải tạo. Nhận render 3D trong 48h theo phong cách Indochine, Modern, Tân cổ điển. Phục vụ TP.HCM, Bình Dương, Vũng Tàu.",
+    "Thiết kế & thi công nội thất trọn gói cho chung cư, nhà phố, văn phòng tại TP.HCM (Bình Thạnh, Quận 1–4, Quận 7, Thủ Đức), Bình Dương, Vũng Tàu. Render 3D trong 48h.",
   path: "/",
 });
 

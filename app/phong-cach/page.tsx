@@ -8,7 +8,7 @@ export const metadata: Metadata = pageMetadata({
   title:
     "Thư viện phong cách nội thất — Indochine, Modern, Tân cổ điển | Anhaus",
   description:
-    "Xem thư viện render nội thất Anhaus theo phong cách Indochine, Modern, Tân cổ điển và ba mức ngân sách. Lọc nhanh theo phòng để chọn concept phù hợp.",
+    "Thư viện render nội thất căn hộ chung cư, nhà phố theo phong cách Indochine, Modern, Tân cổ điển và ba mức ngân sách. Lọc nhanh theo phòng để chọn concept phù hợp.",
   path: "/phong-cach/",
 });
 

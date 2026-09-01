@@ -7,7 +7,7 @@ import { CONTACT } from "@/lib/contact";
 export const metadata: Metadata = pageMetadata({
   title: "Liên hệ & đặt lịch khảo sát miễn phí | Anhaus",
   description:
-    "Đặt lịch khảo sát miễn phí với Anhaus tại TP.HCM, Bình Dương, Vũng Tàu. Để lại thông tin, chúng tôi phản hồi và tư vấn phong cách, ngân sách trong 24h.",
+    "Đặt lịch khảo sát nội thất miễn phí tại TP.HCM — Bình Thạnh, Quận 1–4, Quận 7, Thủ Đức — cùng Bình Dương, Vũng Tàu. Phản hồi và tư vấn ngân sách trong 24h.",
   path: "/lien-he/",
 });
 
@@ -27,7 +27,7 @@ const ZONES: Zone[] = [
   {
     icon: MapPin,
     name: "TP.HCM",
-    desc: "Trung tâm và các quận lân cận — khảo sát nhanh.",
+    desc: "Bình Thạnh, Quận 1, 3, 4, 7 và TP. Thủ Đức (Quận 2 cũ) — khảo sát nhanh trong ngày.",
   },
   {
     icon: MapPin,
