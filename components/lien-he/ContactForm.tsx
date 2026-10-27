@@ -7,14 +7,14 @@ import { cn } from "@/lib/utils";
 
 // ── Google Form (không cần server) ─────────────────────────────
 const GOOGLE_FORM_ACTION =
-  "https://docs.google.com/forms/d/e/1FAIpQLSf8RXk8NKJf_WIh01Lq4iagkvR7MiQAoWhzeNR17XFKDAGt9w/formResponse";
+  "https://docs.google.com/forms/d/e/1FAIpQLScvPQXKKMn7wfUk9xbhNlWxb1_eYbeWwpNXJ54B5s4GwgHqTQ/formResponse";
 
 const ENTRY = {
-  hoTen: "entry.1443470160",
-  soDienThoai: "entry.1774024029",
-  khuVuc: "entry.2103107329",
-  nganSach: "entry.552233141",
-  moTa: "entry.534777052",
+  hoTen: "entry.1763992783",
+  soDienThoai: "entry.1898330291",
+  khuVuc: "entry.892882501",
+  nganSach: "entry.2116868000",
+  moTa: "entry.11903390",
 } as const;
 
 // Value gửi đi — dùng VERBATIM, không chuẩn hoá/đổi dấu.
